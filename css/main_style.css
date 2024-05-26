@@ -437,11 +437,11 @@ main section{
 }
 .owner img{
   object-fit: cover;
-  min-width: 300px;
+  min-width: 250px;
   border-radius: 50%;
   margin: 0 50px 0 50px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 .owner_info{
   font-size: 16px;
@@ -535,7 +535,8 @@ main section{
   font-family: "Nunito", sans-serif;
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; 
+  text-align: center;
 }
 
 h2.title,
@@ -594,6 +595,7 @@ h2.form-title {
 }
 
 .plan__wrapper {
+  color:#fff;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -717,5 +719,10 @@ input[type="submit"]:hover {
   .info__btn a,
   .plan__conect a {
       padding: 10px 15px;
+  }
+  video {
+    width: 300px;
+    margin: 0 auto;
+    text-align-last: center;
   }
 }

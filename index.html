@@ -16,17 +16,19 @@
         <div class="wrapper">
             <div class="burger__menu">
                 <ul class="burger__menu-list">
-                    <li><a href="main_index.html">Головна</a></li>
-                    <li><a href="history.html">Історія</a></li>
-                    <li><a href="">Різновиди кави</a></li>
-                    <li><a href="citymaps.html">Мапа кав'ярень</a></li>
-                    <li><a href="aboutus.html">Про нас</a></li>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#2">Різновиди кави</a></li>
+                    <li><a href="#3">Історія</a></li>
+                    <li><a href="#4">Тури</a></li>
+                    <li><a href="#5">Зв'язатися</a></li>
+                    <li><a href="#6">Про мене</a></li>
+
                 </ul>
             </div>
-            <header>
-                <a href="main_index.html"><img class="logo" src="img/logo.jpg" alt="cup of coffee"></a>
+            <header id="1">
+                <a href="index.html"><img class="logo" src="img/logo.jpg" alt="cup of coffee"></a>
                 <div class="main_title">
-                    <a href="main_index.html"><h1>Cup of Coffee</h1></a>
+                    <a href="index.html"><h1>Cup of Coffee</h1></a>
                 </div>
                 <!-- Navbar -->
                 <nav>
@@ -34,11 +36,12 @@
                         <span></span>
                     </div>
                     <ul class="nav_list">
-                        <li><a href="main_index.html">Головна</a></li>
-                        <li><a href="history.html">Історія</a></li>
-                        <li><a href="#45">Різновиди кави</a></li>
-                        <li><a href="citymaps.html">Мапа кав'ярень</a></li>
-                        <li><a href="aboutus.html">Про нас</a></li>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="#2">Різновиди кави</a></li>
+                        <li><a href="#3">Історія</a></li>
+                        <li><a href="#4">Тури</a></li>
+                        <li><a href="#5">Зв'язатися</a></li>
+                        <li><a href="#6">Про мене</a></li>
                     </ul>
                 </nav>
                 <!-- /Navbar -->
@@ -57,7 +60,7 @@
                     <p>Наш сайт – це віртуальна кавова подорож, де аромат кави змішується зі смаком приголомшливих вражень. Ми присвячені вивченню та поділу найцікавіших аспектів світу кави. Від екзотичних сортів до захопливих методів обсмажування – ми розкриваємо всю гаму смаку та аромату цього унікального напою.</p>
                     <p>Поглибте свої знання про каву, відкривайте нові рецепти та діліться враженнями разом з нами. У світі кави кожен знаходить щось своє. Приєднуйтесь до нас, аби відчути всю різноманітність та вишуканість цього чарівного напою. Ласкаво просимо у наше кавове спільнота, де кожен чашка – це особливий момент задоволення.</p>
                 </section>
-                <div class="parallax parallax_img2" id="45">
+                <div class="parallax parallax_img2" id="2">
                     <div class="title">
                         <h1 class="article">Різновиди кави</h1>
                         <div class="paragraph-with-line">
@@ -70,7 +73,7 @@
                     <p>Ласкаво просимо в захопливий світ різновидів кави! У цьому розділі ми поглибимося в безмежні можливості цього неперевершеного напою, розкриваючи та досліджуючи кожен аспект. Від вишуканих арабік до міцних робуст, від інтенсивного еспрессо до аеропресу – тут ви знайдете вичерпну інформацію про різноманітність кавових сортів та способів їх приготування.</p>
                     <p>Долати шляхи кавового світу разом із нами – це відкривати нові нюанси смакового вишукання кожним ковтком. Приготуйтеся до захоплюючої подорожі у світ різноманіття та витонченості кавових вражень.</p>
                 </section>
-                <div class="parallax parallax_img3">
+                <div id="3" class="parallax parallax_img3">
                     <div class="title">
                         <h1 class="article">Історія кави</h1>
                         <div class="paragraph-with-line">
@@ -84,10 +87,11 @@
                 </section>
                 <section class="section4" id="3">
                     <div class="section4__wrapper">
-                        
+                        <video look muted autoplay width="600px">
+                            <source src="./vid/Рекламный ролик кофейни _Зацепи кофе_.mp4">
+                        </video>
                         <div class="wrapper__video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yXKVjt6cPRM?si=Z9I4Y-lr5Ilf7BT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        <div class="plan">
-                            <div class="plan__wrapper">
+                            <div id="4" class="plan__wrapper">
                                 <div class="plan__block">
                                     <div class="packet__name">Базовий тур: "світ кави"</div>
                                     <div class="packet__price">100$</div>
@@ -135,7 +139,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section5" id="6">
+                <section class="section5" id="5">
                     <div class="section5__wrapper">
                         <h2 class="form-title">ПОВІДОМТЕ МЕНІ</h2>
                         <form action="/register" method="POST" >
@@ -162,6 +166,18 @@
                         </form>
                     </div>
                 </section>
+                <section id="6">
+                    <p>Привіт! тут я постараюсь, коротко розповісти про себе та проект. Ідея зробити сайт про каву, з'явилась неочікувано, точніше кажучи мені її підкинули. На своїй сторінці я хотів висвітлити деякі таємниці легендарного напою. Надіюсь - вийшло непогано. Давайте знайомитись! </p>
+                <div class="parallax parallax_img6frs"> 
+                    <div class="owner">
+                        <img src="./img/vasya.jpg" alt="author">
+                        <div class="owner_info">
+                        <p>Мене звати Вася. Я навчаюсь на другому курсі в НУЛП у групі ПЦ-21, використовую тактику великого Кобзаря: "Караюсь, мучуся... але не каюсь!..".</p>
+                        <p>Як і велика частка людей - я люблю каву, і наколи не відмовлюся від ще однієї чашки. З початком навчання, кава стала частиною - і поки хтось не може працювати не випивши пива, я не можу праюцвати не випивши кави.</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
             </main>
             <footer>
                 <!-- Social Icons -->
